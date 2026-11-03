@@ -21,8 +21,8 @@ Saves automatically in the browser (localStorage).
 Download `ChipLife.apk` from the [Releases](https://github.com/RandomProjects1234/chiplife/releases) page, or build it to `dist/ChipLife.apk`. Copy it to an Android phone (Android 7.0+), open it and allow "install unknown
 apps". It runs fully offline, needs no permissions, and saves on the phone.
 
-Rebuild with **`Build ChipLife APK.bat`** (parent folder) or `node tools/build-apk.mjs`. It uses the
-Android SDK at `D:\Android\Sdk` (build-tools 34 + platforms/android-34) and JDK 25 — no Gradle.
+Build it yourself with `node tools/build-apk.mjs`. It needs the Android SDK (build-tools 34 +
+platforms/android-34; set `ANDROID_SDK`) and a JDK (set `JAVA_HOME`), but no Gradle.
 The first build creates your own signing key in `android/signing/` (not in this repo). Back it up: updates
 to an installed app must be signed with the same key. Bump `VERSION_CODE` in the build script for
 each new release.

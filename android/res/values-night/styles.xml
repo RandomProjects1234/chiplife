@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_bg">#FF2A2019</color>
+    <color name="status_bar">#FF1C140D</color>
+    <color name="nav_bar">#FF1C140D</color>
+    <!-- A dark parent theme also tells the WebView to use the game's dark colors. -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:navigationBarColor">@color/nav_bar</item>
+    </style>
+</resources>

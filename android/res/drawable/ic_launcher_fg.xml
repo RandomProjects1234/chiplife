@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ChipLife acorn, drawn inside the 66dp safe zone of a 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- cream badge -->
+    <path android:fillColor="#FFFFF3DF" android:pathData="M54,21 A33,33 0 1,1 53.99,21 Z" />
+    <!-- nut -->
+    <path android:fillColor="#FFF2B45F" android:pathData="M37,53 C37,68 44,77 54,84 C64,77 71,68 71,53 Z" />
+    <path android:fillColor="#FFDE9638" android:pathData="M60,53 C60,68 58,77 54,84 C64,77 71,68 71,53 Z" />
+    <path android:fillColor="#FFFFE2AE" android:pathData="M43,58 C43,65 46,71 50,75 C48,70 46.5,64 46.5,58 Z" />
+    <!-- cap -->
+    <path android:fillColor="#FF8B5A2B" android:pathData="M32,55 C31,43 41,35 54,35 C67,35 77,43 76,55 C67,58 41,58 32,55 Z" />
+    <path android:fillColor="#FF6F4520" android:pathData="M42,46 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M50,42 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M58,42 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M66,46 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M46,51 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M54,49 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M62,51 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <!-- stem and leaf -->
+    <path android:fillColor="#FF5E3A1A" android:pathData="M52,36 C51,30 53,25 57,22 L60,24.5 C57,27 56,31 56.5,36 Z" />
+    <path android:fillColor="#FF6CBF5B" android:pathData="M58.5,27 C63,21 71,20.5 75,24.5 C70.5,29 63.5,30.5 58.5,27 Z" />
+    <!-- happy face -->
+    <path android:fillColor="#FF5E3A1A" android:pathData="M47.5,64 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 M60.5,64 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+    <path android:strokeColor="#FF5E3A1A" android:strokeWidth="1.8" android:strokeLineCap="round" android:fillColor="#00000000" android:pathData="M50,70 Q54,73.5 58,70" />
+</vector>
